@@ -1,0 +1,9 @@
+t=0.5;
+r=0.8;
+w=(5*t*t+2);
+a=10*t;
+va=w*r;
+az=a*r;
+an=w*w*r;
+aa=sqrt(az*az+an*an);
+disp(aa);
